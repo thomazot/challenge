@@ -1,0 +1,35 @@
+{
+    "name": "challenge-finch",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "parcel public/index.html"
+    },
+    "staticFiles": {
+        "staticPath": "public"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.6.4",
+        "@babel/plugin-syntax-object-rest-spread": "^7.2.0",
+        "@babel/plugin-transform-runtime": "^7.6.2",
+        "@babel/preset-env": "^7.6.3",
+        "@babel/preset-react": "^7.6.3",
+        "parcel-bundler": "^1.12.4",
+        "parcel-plugin-static-files-copy": "^2.2.1"
+    },
+    "dependencies": {
+        "axios": "^0.19.0",
+        "query-string": "^6.8.3",
+        "react": "^16.11.0",
+        "react-dom": "^16.11.0",
+        "react-redux": "^7.1.1",
+        "react-router-dom": "^5.1.2",
+        "redux": "^4.0.4",
+        "redux-multi": "^0.1.12",
+        "redux-promise": "^0.6.0",
+        "redux-thunk": "^2.3.0",
+        "styled-components": "^4.4.1",
+        "styled-normalize": "^8.0.6"
+    }
+}

@@ -4,6 +4,7 @@
     "main": "index.js",
     "license": "MIT",
     "scripts": {
+        "production": "parcel build public/index.html",
         "start": "parcel public/index.html"
     },
     "staticFiles": {
